@@ -1,0 +1,31 @@
+[       1] Initializing Proteus
+[       1] Initializing MPI
+[       1] PETSc options from commandline
+[       1] ['/project/cekees/cekees/proteus/1.8.1/bin/parun', '-rans2p_ksp_type', 'preonly', '-rans2p_pc_type', 'lu', '-rans2p_pc_factor_mat_solver_package', 'superlu_dist', '-ncls_ksp_type', 'preonly', '-ncls_pc_type', 'lu', '-ncls_pc_factor_mat_solver_package', 'superlu_dist', '-vof_ksp_type', 'preonly', '-vof_pc_type', 'lu', '-vof_pc_factor_mat_solver_package', 'superlu_dist', '-rdls_ksp_type', 'preonly', '-rdls_pc_type', 'lu', '-rdls_pc_factor_mat_solver_package', 'superlu_dist', '-mcorr_ksp_type', 'preonly', '-mcorr_pc_type', 'lu', '-mcorr_pc_factor_mat_solver_package', 'superlu_dist', '-kappa_ksp_type', 'preonly', '-kappa_pc_type', 'lu', '-kappa_pc_factor_mat_solver_package', 'superlu_dist', '-dissipation_ksp_type', 'preonly', '-dissipation_pc_type', 'lu', '-dissipation_pc_factor_mat_solver_package', 'superlu_dist', '-mesh_ksp_type', 'preonly', '-mesh_pc_type', 'lu', '-mesh_pc_factor_mat_solver_package', 'superlu_dist', '-am_ksp_type', 'cg', '-am_ksp_constant_null_space', '-am_pc_type', 'hypre', '-am_pc_hypre_type', 'boomeramg', '-am_pc_factor_shift_type', 'NONZERO', '-am_pc_factor_shift_amount', '1.0e-10']
+[       2] Adding . to path for loading modules
+[       2] Loading problem-specific modules
+[       2] Importing input modules
+[       2] /ddnA/project/cekees/cekees/proteus/1.8.1/lib/python3.10/site-packages/proteus/TwoPhaseFlow/utils/
+[       2] Loading so module = TwoPhaseFlow_so.py
+[       7] Context input options:
+final_time[30.0] Final time for simulation
+
+dt_output[0.01] Time interval to output solution
+
+cfl[0.5] Desired CFL restriction
+
+he[0.05] he relative to Length of domain in x
+
+tank_dim[(10.0, 4.0)] Dimensions of the tank
+
+fr[1.0] Forcing frequency ratio
+
+
+[       7] Processing context input options from commandline
+[       7] final_time = 20.0
+[       7] Processing context input options from commandline
+[       7] he = 0.005
+[       7] Processing context input options from commandline
+[       7] fr = 1.0
+[       8] WARNING: Dirichlet condition for k in Atmosphere has not been set. Ignore if RANS is not used
+[       8] WARNING: Dirichlet condition for dissipation in Atmosphere has not been set. Ignore if RANS is not used
