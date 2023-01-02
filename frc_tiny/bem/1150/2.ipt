@@ -1,0 +1,47 @@
+*input number of planes
+*total, body immersed, bottom
+
+8   3   1
+*====================
+*what kind of boundary is left and right?
+*0 = wall; 1 = piston wavemaker; 2 = flap wavemaker; 3=radiation
+
+1    3
+*====================
+*what kind of wave
+*1 = periodic; 2 = solitary; 0 = no wave security
+
+1    0
+*====================
+*wavemaker parameters
+*if piston: amplitude(m), omega(rad/s), phase lag(rad)
+*if flap: stroke(m), duration(s), na
+
+0.008688    4.19    0    -0.008688    4.19    0
+*====================
+*input number of wave gauge
+
+6
+*====================
+*input wave gauge x location
+
+1  2  4  6  8  9
+*====================
+*input number of body mass
+
+1
+*====================
+*input length, height, density of floating body
+
+1.0    0.5    450
+*====================
+*input initial x, y, and angular displacements
+* unit = m, m, degree
+
+0  0  0
+*====================
+*input degree of freedom of the body along 3 directions
+*1 = free; 0 = fixed
+
+1   1    1
+*file end
