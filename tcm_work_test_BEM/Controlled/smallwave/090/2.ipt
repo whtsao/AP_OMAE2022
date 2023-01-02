@@ -1,0 +1,41 @@
+*input number of planes
+*total, body immersed, bottom
+
+8   3   1
+*====================
+*what wave do you generate?
+*0 = no wave; 1 = periodic; 2 = solitary
+
+1
+*====================
+*wavemaker type
+*1 = piston; 2 = flap
+
+1
+*====================
+*input number of wave gauge
+
+5
+*====================
+*input wave gauge x location
+
+1  2  4  6  8
+*====================
+*input number of body mass
+
+1
+*====================
+*input length, height, density of floating body
+
+1.0    0.5    450
+*====================
+*input initial x, y, and angular displacements
+* unit = m, m, degree
+
+0  0  0
+*====================
+*input degree of freedom of the body along 3 directions
+*1 = free; 0 = fixed
+
+1   1    1
+*file end
