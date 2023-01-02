@@ -1,0 +1,36 @@
+*do you have PMTLD?
+* 0 = no; 1 = yes by BEM; 2 = yes by equivalent mechanical model
+
+0
+*====================
+*input the coordinate of vertex of PMTLD domain
+* x  y  z
+
+0	0 
+0.62	0 
+0.62	0.049
+0	0.049
+*====================
+*input the number of element on each plane
+
+20
+10
+20
+10
+*====================
+*input the boundary type
+*1 = phi is given; 0 = pphi is given
+
+1
+0
+0
+0
+*======================
+*input the linear damping ratio, mu2, porosity
+
+0.184   5.0    0.96
+*======================
+*input the position of the TLD relative to COG of the body
+
+0    0
+*file end
