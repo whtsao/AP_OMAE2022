@@ -1,0 +1,57 @@
+*input the coordinate of vertex of wave domain
+* x  y  z
+
+0	0
+10	0
+10	2
+5.5	2
+5.5	1.75
+4.5	1.75
+4.5	2
+0	2
+*====================
+*input the number of element on each plane
+
+180
+10
+40
+10
+180
+80
+400
+80
+*====================
+*input the boundary type
+*1 = phi is given, 0 = pphi is given
+
+1
+0
+0
+0
+1
+0
+0
+0
+*=======================
+*input the number of gaussian points
+
+8 
+*=======================
+*input the gravity, mu, channel width, tho
+
+9.81    0    1.0    998.2
+*=======================
+*wavemaker parameters
+*amplitude(m) or stroke(m),omega(rad/s) or duration(s), phase lag(rad) of wavemaker
+
+0.0255    4.027    0
+*=======================
+*endtime, delttime, niter, etol, etol, converge type
+*1 = acceleration converge; 2 = force converge
+
+100   0.001   2000    1.0e-6     1.0e-6    1
+*=======================
+*gamma beta of Newmark method, coefficient of predictor
+
+0.5   0.25    0.5
+*file end
