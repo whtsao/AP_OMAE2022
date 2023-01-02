@@ -1,0 +1,41 @@
+Wed Dec 29 15:04:36 CST 2021
+# Wave
+
+# Printing input data here to check
+
+# Height/Depth: 0.025
+# Dimensionless Period T*sqrt(g/d):   3.46
+# Current criterion: Euler,  Dimensionless value: 0.000
+
+# Solution by 8-term Fourier series
+
+
+Height step  1 of  1
+
+Iteration  1: Mean of corrections to free surface:  6.5e-04
+Iteration  2: Mean of corrections to free surface:  1.2e-06
+Iteration  3: Mean of corrections to free surface:  2.5e-11
+
+# Solution summary:
+
+# Wave
+
+# Solution by 8-term Fourier series
+
+# Height/Depth: 0.025,   9% of the maximum of H/d = 0.268 for this length:
+# Length/Depth:   1.90
+# Dimensionless Period T*sqrt(g/d):   3.46
+# Current criterion: Euler,  Dimensionless value: 0.000
+
+Touch key to continue
+
+
+Finished
+** PETSc DEPRECATION WARNING ** : the option -pc_factor_mat_solver_package is deprecated as of version 3.9 and will be removed in a future release. Please use the option -pc_factor_mat_solver_type instead. (Silence this warning with -options_suppress_deprecated_warnings)
+** PETSc DEPRECATION WARNING ** : the option -pc_factor_mat_solver_package is deprecated as of version 3.9 and will be removed in a future release. Please use the option -pc_factor_mat_solver_type instead. (Silence this warning with -options_suppress_deprecated_warnings)
+** PETSc DEPRECATION WARNING ** : the option -pc_factor_mat_solver_package is deprecated as of version 3.9 and will be removed in a future release. Please use the option -pc_factor_mat_solver_type instead. (Silence this warning with -options_suppress_deprecated_warnings)
+** PETSc DEPRECATION WARNING ** : the option -pc_factor_mat_solver_package is deprecated as of version 3.9 and will be removed in a future release. Please use the option -pc_factor_mat_solver_type instead. (Silence this warning with -options_suppress_deprecated_warnings)
+** PETSc DEPRECATION WARNING ** : the option -pc_factor_mat_solver_package is deprecated as of version 3.9 and will be removed in a future release. Please use the option -pc_factor_mat_solver_type instead. (Silence this warning with -options_suppress_deprecated_warnings)
+** PETSc DEPRECATION WARNING ** : the option -pc_factor_mat_solver_package is deprecated as of version 3.9 and will be removed in a future release. Please use the option -pc_factor_mat_solver_type instead. (Silence this warning with -options_suppress_deprecated_warnings)
+** PETSc DEPRECATION WARNING ** : the option -pc_factor_mat_solver_package is deprecated as of version 3.9 and will be removed in a future release. Please use the option -pc_factor_mat_solver_type instead. (Silence this warning with -options_suppress_deprecated_warnings)
+Sat Jan  1 04:26:31 CST 2022

@@ -1,0 +1,6 @@
+Autoloading mvapich2/2.3.3/gcc-9.3.0
+
+Loading proteus/1.7.5/gcc-9.3.0-mvapich2-2.3.3
+  Loading requirement: gcc/9.3.0 mvapich2/2.3.3/gcc-9.3.0
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 124722 ON qbc110 CANCELLED AT 2021-12-31T08:19:29 ***
